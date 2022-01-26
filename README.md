@@ -14,4 +14,4 @@ On the other hand, it can be seen that the names in this book do not appear freq
 
 ## My Notebook
 
-* [Home Work1](https://github.com/Yueyuetian1/DataScience-2022/blob/main/HW1/HWEEK1.ipynb)
+* [Homework1](https://github.com/Yueyuetian1/DataScience-2022/blob/main/HW1/HWEEK1.ipynb)
