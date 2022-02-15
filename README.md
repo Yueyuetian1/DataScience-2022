@@ -34,6 +34,34 @@ As we all know, Mr. Hemingway died abnormally. Maybe he was a little negative ab
 
 No matter how life is, we should face life with a positive attitude.
 
+## HW3 Background
+In order to make unsupervised clustering better, a work of Hemingway is selected as the data source. Here, Hemingway's most famous work *the old man and the sea* is used for data visualization.
+
+### 1. Data visualization using an Unsupervised Machine Learning technique
+KElbowVisualizer implements the "elbow" method to help data scientists choose the best number of clusters by fitting the model with a series of values of K. The elbow graph of *the old man and the sea* is drawn, and the number of clusters is 4.
+
+![elbow](https://user-images.githubusercontent.com/96498688/154098485-da661762-c063-4ba6-86d3-2c32055d98aa.png)
+
+The LDA(Latent Dirichlet Allocation) in sklearn is used to unsupervised cluster *the elderly and sea* texts, and the number of topics is set to 4. This graph can be viewed dynamically through the "LDE. HTML" file.
+
+![Cluster](https://user-images.githubusercontent.com/96498688/154098475-865e20c8-85cd-4d2e-9256-6baa79719929.jpg)
+
+In order to make the following 3D plot more convenient, select the first three clusters from the four clusters in the figure for topic analysis. As can be seen from the figure, many of the keywords included in the first topic are related to characters, such as: "he", "man" and "boy". The word of this clustering topic is called "human", which is the word related to the description of characters. If I haven't read the book "the old man and the sea", I can draw a conclusion through this analysis:
+
+This book is a story about men and is described in the third person.
+
+This conclusion is just the narrative style and the gender of the protagonist in "the old man and the sea". Through the analysis of clustering words, the second topic is called "place", and the third topic is called "things"
+
+### 2. 3D plot
+Based on the data visualization using unsupervised machine learning technology, 3D plot under three topics are drawn.
+
+![3D](https://user-images.githubusercontent.com/96498688/154098465-8b8e3a72-197f-4e6d-ba24-fdcfe38e33ea.jpg)
+
+Due to the limitations of word, this 3D diagram is statically displayed here, which can be viewed dynamically from the code file of homework3. The figure shows a sentence on the X and Z axes: "he went terrace ask coffee". This sentence is the relationship between "human" and "things", which explains the correctness of our previous topic definition to a certain extent. At the same time, we observe that there are many points on the plane of Y axis and Z axis in 3D graph, so a suggestion is given:
+
+The cross description of characters and places in the article may help the work to be better.
+
+
 ## My Notebook
 
 * [Homework1](https://github.com/Yueyuetian1/DataScience-2022/blob/main/HW1/HWEEK1.ipynb)
