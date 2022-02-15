@@ -57,7 +57,7 @@ Based on the data visualization using unsupervised machine learning technology, 
 
 ![3D](https://user-images.githubusercontent.com/96498688/154098465-8b8e3a72-197f-4e6d-ba24-fdcfe38e33ea.jpg)
 
-Due to the limitations of word, this 3D diagram is statically displayed here, which can be viewed dynamically from the code file of homework3. The figure shows a sentence on the X and Z axes: "he went terrace ask coffee". This sentence is the relationship between "human" and "things", which explains the correctness of our previous topic definition to a certain extent. At the same time, we observe that there are many points on the plane of Y axis and Z axis in 3D graph, so a suggestion is given:
+Due to the limitations of word, this 3D diagram is statically displayed here, which can be viewed dynamically from the code file of homework3. The figure shows a sentence on the X and Z axes: "he went terrace ask coffee". This sentence is the relationship between "human" and "things", which explains the correctness of our previous topic definition to a certain extent. At the same time, we observe that there are many points on the plane of X axis and Y axis in 3D graph, so a suggestion is given:
 
 The cross description of characters and places in the article may help the work to be better.
 
