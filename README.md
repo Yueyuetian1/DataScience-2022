@@ -42,7 +42,7 @@ KElbowVisualizer implements the "elbow" method to help data scientists choose th
 
 ![elbow](https://user-images.githubusercontent.com/96498688/154098485-da661762-c063-4ba6-86d3-2c32055d98aa.png)
 
-The LDA(Latent Dirichlet Allocation) in sklearn is used to unsupervised cluster *the elderly and sea* texts, and the number of topics is set to 4. This graph can be viewed dynamically through the "LDE. HTML" file.
+The LDA(Latent Dirichlet Allocation) in sklearn is used to unsupervised cluster *the elderly and sea* texts, and the number of topics is set to 4. This graph can be viewed dynamically through the "lda.html" file.
 
 ![Cluster](https://user-images.githubusercontent.com/96498688/154098475-865e20c8-85cd-4d2e-9256-6baa79719929.jpg)
 
@@ -66,3 +66,4 @@ The cross description of characters and places in the article may help the work 
 
 * [Homework1](https://github.com/Yueyuetian1/DataScience-2022/blob/main/HW1/HWEEK1.ipynb)
 * [Homework2](https://github.com/Yueyuetian1/DataScience-2022/blob/main/HW2/HWEEK2.ipynb)
+* [Homework3](https://github.com/Yueyuetian1/DataScience-2022/blob/main/HW3/HWEEk3.ipynb)
