@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0de3a08955064681a6e91bb6e2bd7437 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0de3a08955064681a6e91bb6e2bd7437" ></div>
+        
+</body>
+<script>    
+    
+            var map_0de3a08955064681a6e91bb6e2bd7437 = L.map(
+                "map_0de3a08955064681a6e91bb6e2bd7437",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_addc6213332242d38ffc615b54509c21 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0de3a08955064681a6e91bb6e2bd7437);
+        
+    
+            var marker_cbf81fa33ef24ab98977765e9172692f = L.marker(
+                [43.68111, -114.3717],
+                {"controlScale": true}
+            ).addTo(map_0de3a08955064681a6e91bb6e2bd7437);
+        
+    
+            var icon_fb9e040a8d7547ce9ae6f236dfa4508d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cbf81fa33ef24ab98977765e9172692f.setIcon(icon_fb9e040a8d7547ce9ae6f236dfa4508d);
+        
+    
+        var popup_a0fd80afb2bf4307be2535eeb7dfd407 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_419712b641f0402cb1383b360981a3c3 = $(`<div id="html_419712b641f0402cb1383b360981a3c3" style="width: 100.0%; height: 100.0%;"><b>Starting Point: <p>KETCHUM, IDAHO, America:(43.68111, -114.3717)</p>.</b></div>`)[0];
+            popup_a0fd80afb2bf4307be2535eeb7dfd407.setContent(html_419712b641f0402cb1383b360981a3c3);
+        
+
+        marker_cbf81fa33ef24ab98977765e9172692f.bindPopup(popup_a0fd80afb2bf4307be2535eeb7dfd407)
+        ;
+
+        
+    
+    
+            var marker_e507f17221124d65862271cc79866e06 = L.marker(
+                [41.88334, -87.8],
+                {"controlScale": true}
+            ).addTo(map_0de3a08955064681a6e91bb6e2bd7437);
+        
+    
+            var icon_8c980e26d55b4c29b996754e0d319a87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e507f17221124d65862271cc79866e06.setIcon(icon_8c980e26d55b4c29b996754e0d319a87);
+        
+    
+        var popup_fb9ffb1c5af54a20af0b3eb7eaf2ad19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e16f22b2afe8420da2f6cc137208fc14 = $(`<div id="html_e16f22b2afe8420da2f6cc137208fc14" style="width: 100.0%; height: 100.0%;"><p>Oak Park, Illinois, America:(41.88334, -87.8)</p></div>`)[0];
+            popup_fb9ffb1c5af54a20af0b3eb7eaf2ad19.setContent(html_e16f22b2afe8420da2f6cc137208fc14);
+        
+
+        marker_e507f17221124d65862271cc79866e06.bindPopup(popup_fb9ffb1c5af54a20af0b3eb7eaf2ad19)
+        ;
+
+        
+    
+    
+            var marker_2d5aa02a192c4162aa7989c8aa6fd48a = L.marker(
+                [24.55975, -81.78371],
+                {"controlScale": true}
+            ).addTo(map_0de3a08955064681a6e91bb6e2bd7437);
+        
+    
+            var icon_a65949fa34cf4099a33cbe8f12352cb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2d5aa02a192c4162aa7989c8aa6fd48a.setIcon(icon_a65949fa34cf4099a33cbe8f12352cb2);
+        
+    
+        var popup_1afafe4bb4054b0cb3a815fe3b0cd52e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac64278884f3466d92af309ede7d2266 = $(`<div id="html_ac64278884f3466d92af309ede7d2266" style="width: 100.0%; height: 100.0%;"><p>Key West, Florida, America:(24.55975, -81.78371)</p></div>`)[0];
+            popup_1afafe4bb4054b0cb3a815fe3b0cd52e.setContent(html_ac64278884f3466d92af309ede7d2266);
+        
+
+        marker_2d5aa02a192c4162aa7989c8aa6fd48a.bindPopup(popup_1afafe4bb4054b0cb3a815fe3b0cd52e)
+        ;
+
+        
+    
+    
+            var marker_cf69b408f44b4c25a153eb1cdfadbcef = L.marker(
+                [23.13667, -82.35889],
+                {"controlScale": true}
+            ).addTo(map_0de3a08955064681a6e91bb6e2bd7437);
+        
+    
+            var icon_e5dfcf8d5a484624adf80b5d5b29a7ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cf69b408f44b4c25a153eb1cdfadbcef.setIcon(icon_e5dfcf8d5a484624adf80b5d5b29a7ce);
+        
+    
+        var popup_3e73f2c88b634c09b7d30ef243ee176a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bdeb62f1dd845ceaab828ac3f28e59e = $(`<div id="html_0bdeb62f1dd845ceaab828ac3f28e59e" style="width: 100.0%; height: 100.0%;"><p>Havana, Cuba:(23.13667, -82.35889)</p></div>`)[0];
+            popup_3e73f2c88b634c09b7d30ef243ee176a.setContent(html_0bdeb62f1dd845ceaab828ac3f28e59e);
+        
+
+        marker_cf69b408f44b4c25a153eb1cdfadbcef.bindPopup(popup_3e73f2c88b634c09b7d30ef243ee176a)
+        ;
+
+        
+    
+    
+            var marker_5fbb492cc26c43a389f513e4878a1616 = L.marker(
+                [40.41667, -3.716667],
+                {"controlScale": true}
+            ).addTo(map_0de3a08955064681a6e91bb6e2bd7437);
+        
+    
+            var icon_56b852d0ba7946f79ed6b5cf4113ee0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5fbb492cc26c43a389f513e4878a1616.setIcon(icon_56b852d0ba7946f79ed6b5cf4113ee0a);
+        
+    
+        var popup_5995467fb72644c0b580d4af15c362d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdc1ead1891c4f67b857f4e3ddf583f7 = $(`<div id="html_cdc1ead1891c4f67b857f4e3ddf583f7" style="width: 100.0%; height: 100.0%;"><p>MADRID, Spain:(40.41667, -3.716667)</p></div>`)[0];
+            popup_5995467fb72644c0b580d4af15c362d6.setContent(html_cdc1ead1891c4f67b857f4e3ddf583f7);
+        
+
+        marker_5fbb492cc26c43a389f513e4878a1616.bindPopup(popup_5995467fb72644c0b580d4af15c362d6)
+        ;
+
+        
+    
+    
+            var marker_2c6a87aaec904524a1dd012e34bf3198 = L.marker(
+                [42.81279, -1.64332],
+                {"controlScale": true}
+            ).addTo(map_0de3a08955064681a6e91bb6e2bd7437);
+        
+    
+            var icon_47ee541c528b4935b393cfda6fa69cc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c6a87aaec904524a1dd012e34bf3198.setIcon(icon_47ee541c528b4935b393cfda6fa69cc2);
+        
+    
+        var popup_d1679116374b4f8baacded45b056491a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03f2d4bdeb1a4a389aeae312e848bca7 = $(`<div id="html_03f2d4bdeb1a4a389aeae312e848bca7" style="width: 100.0%; height: 100.0%;"><b>Ending Point: <p>PAMPLONA, Spain:(42.81279, -1.64332)</p>.</b></div>`)[0];
+            popup_d1679116374b4f8baacded45b056491a.setContent(html_03f2d4bdeb1a4a389aeae312e848bca7);
+        
+
+        marker_2c6a87aaec904524a1dd012e34bf3198.bindPopup(popup_d1679116374b4f8baacded45b056491a)
+        ;
+
+        
+    
+    
+            var poly_line_9618f60d5ad94a1ea623f8b626b81ce0 = L.polyline(
+                [[43.68111, -114.3717], [41.88334, -87.8], [24.55975, -81.78371], [23.13667, -82.35889], [40.41667, -3.716667], [42.81279, -1.64332]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0de3a08955064681a6e91bb6e2bd7437);
+        
+    
+            var marker_7c80cfa4b586428a8d62499ea3684109 = L.marker(
+                [55.7505, -39.386],
+                {}
+            ).addTo(map_0de3a08955064681a6e91bb6e2bd7437);
+        
+    
+            var icon_13db28c0ad7a4674b561654508de8abb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c80cfa4b586428a8d62499ea3684109.setIcon(icon_13db28c0ad7a4674b561654508de8abb);
+        
+    
+        var popup_8e6d319d3ab0417b90cd1224a742d5fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00545957727947ea95b90bff9af49239 = $(`<div id="html_00545957727947ea95b90bff9af49239" style="width: 100.0%; height: 100.0%;"><h6>Diatance: 12835.794</h6></hr><h6>Path: KETCHUM, IDAHO, America-->Oak Park, Illinois, America-->Key West, Florida, America-->Havana, Cuba-->MADRID, Spain-->PAMPLONA, Spain</h6></div>`)[0];
+            popup_8e6d319d3ab0417b90cd1224a742d5fd.setContent(html_00545957727947ea95b90bff9af49239);
+        
+
+        marker_7c80cfa4b586428a8d62499ea3684109.bindPopup(popup_8e6d319d3ab0417b90cd1224a742d5fd)
+        ;
+
+        
+    
+    
+                var lat_lng_popup_4a302f8e50e4442e8131421128305d11 = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_4a302f8e50e4442e8131421128305d11
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_0de3a08955064681a6e91bb6e2bd7437);
+                    }
+                map_0de3a08955064681a6e91bb6e2bd7437.on('click', latLngPop);
+            
+</script>

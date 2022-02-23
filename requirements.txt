@@ -1,0 +1,6 @@
+pdfminer
+nltk
+matplotlib
+numpy
+wordcloud
+folium
